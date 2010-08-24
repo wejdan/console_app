@@ -24,5 +24,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Command1_Click()
-MsgBox "«··Â «ﬂ»—"
+Dim S As String
+S = InputBox("")
+MsgBox S
 End Sub
